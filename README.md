@@ -1,4 +1,4 @@
-fom_generator
+form_generator
 =============
 
 Generates valid html form with PHP
