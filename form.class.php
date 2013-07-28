@@ -82,7 +82,7 @@ class form {
      * @desc	add attribute to the field
      * @param mixed $id	the id, what will be modified
      * @param mixed $a	on more attribute, it must associated array, other case is must string
-     * @param mixed $b	whet the second parameter is not an array, then this must add this as string
+     * @param mixed $b	when the second parameter is not an array, then this must add this as string
      * @return
      */
     public function addAttr($id, $a, $b = null) {
@@ -109,7 +109,7 @@ class form {
     /**
      * @desc	add attribute to the form tag
      * @param mixed $a	on more attribute, it must associated array, other case is must string
-     * @param mixed $b	whet the second parameter is not an array, then this must add this as string
+     * @param mixed $b	when the second parameter is not an array, then this must add this as string
      * @return
      */
     public function addFormAttr($a,$b=null) {
@@ -187,8 +187,8 @@ class form {
 		}
 	}
     /**
-     * @desc	egy form megjelenítése
-     * @param mixed $id	az input mező id-je, amelyet megszeretnénk jeleníteni
+     * @desc	render a form
+     * @param mixed $id	the internal id of the form, what we want to show
      * @return mixed
      */
     private function render($id) {
